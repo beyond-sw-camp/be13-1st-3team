@@ -138,13 +138,39 @@ ALTER TABLE `sales` ADD CONSTRAINT `PK_SALES` PRIMARY KEY (
 
 INSERT INTO category (category_id, category_name)
 VALUES
-(1, '가전제품'),
-(2, '의류');
+(1, '간편식사'),
+(2, '즉석조리'),
+(3, '과자류'),
+(4, '아이스크림'),
+(5, '식품'),
+(6, '음료'),
+(7, '생활용품');
 
-INSERT INTO membership (mem_id, customer_name, email, mobile, birth_year, addr, point)
+INSERT INTO event (event_id, event_type, event_start, event_end)
 VALUES
-(1, '홍길동', 'hong@example.com', '01012345678', '1985', '서울특별시 강남구', 500),
-(2, '김영희', 'kim@example.com', '01098765432', '1990', '부산광역시 해운대구', 300);
+(1, '신년 할인', '2024-01-01 00:00:00', '2024-01-15 23:59:59'),
+(2, '구정 할인', '2024-02-01 00:00:00', '2024-02-10 23:59:59');
+(3, '군인 할인', '2024-01-01 00:00:00', '2024-05-31 23:59:59');
+(4, '직원 할인', '2024-01-01 00:00:00', '2024-05-31 23:59:59');
+
+INSERT INTO employee (emp_id, work_date, start_time, end_time, work_hour, position)
+VALUES
+(201, '2024-01-01', '2024-01-01 09:00:00', '2024-01-01 18:00:00', '08:00:00', '관리자'),
+(202, '2024-01-02', '2024-01-02 09:00:00', '2024-01-02 18:00:00', '08:00:00', '직원');
+
+
+
+INSERT INTO membership (mem_id, customer_name, email, mobile, birth_year, addr, point) 
+VALUES 
+    (1, '홍길동', 'hong@example.com', '01012345678', '1985', '서울특별시 강남구', 500), 
+    (2, '김영희', 'kim@example.com', '01098765432', '1990', '부산광역시 해운대구', 300),
+    (3, '이철수', 'lee@example.com', '01055557777', '1988', '대구광역시 달서구', 200),
+    (4, '박민수', 'park@example.com', '01044446666', '1995', '인천광역시 남동구', 450),
+    (5, '최수진', 'choi@example.com', '01033335555', '1992', '광주광역시 북구', 350),
+    (6, '정은혜', 'jung@example.com', '01022223333', '1987', '대전광역시 서구', 600),
+    (7, '김도현', 'kimd@example.com', '01011112222', '1983', '울산광역시 중구', 700),
+    (8, '박소연', 'parks@example.com', '01099998888', '1998', '경기도 수원시', 400);
+
 
 
 INSERT INTO stock (stock_id, stock_status, stock_date, s_quantity, r_quantity, product_id)
@@ -152,22 +178,10 @@ VALUES
 (1, '입고', '2024-01-01 10:00:00', 100, 0, 101),
 (2, '출고', '2024-01-05 15:00:00', 0, 50, 102);
 
-INSERT INTO event (event_id, event_type, event_start, event_end)
-VALUES
-(1, '신년 할인', '2024-01-01 00:00:00', '2024-01-15 23:59:59'),
-(2, '구정 할인', '2024-02-01 00:00:00', '2024-02-10 23:59:59');
-
-
 INSERT INTO report (report_id, quarter, category_id, sales_performance, sales_quantity, emp_id)
 VALUES
 (1, 1, 1, '매우 우수', 1500, 201),
 (2, 2, 2, '보통', 800, 202);
-
-
-INSERT INTO employee (emp_id, work_date, start_time, end_time, work_hour, position)
-VALUES
-(201, '2024-01-01', '2024-01-01 09:00:00', '2024-01-01 18:00:00', '08:00:00', '관리자'),
-(202, '2024-01-02', '2024-01-02 09:00:00', '2024-01-02 18:00:00', '08:00:00', '직원');
 
 
 INSERT INTO product (product_id, ex_date, product_name, product_detail, quantity, price, event_id, category_id)
