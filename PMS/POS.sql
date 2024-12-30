@@ -1,20 +1,8 @@
--- CREATE DATABASE `pos_db`;
-DROP TABLE `stock`;
-DROP TABLE `refund`;
-DROP TABLE `sales`;
-DROP TABLE `product`;
-DROP TABLE `receipt`;
-DROP TABLE `event`;
-DROP TABLE `report`;
-DROP TABLE `employee`;
-DROP TABLE `category`;
-DROP TABLE `membership`;
 DROP DATABASE pos_db;
 CREATE DATABASE `pos_db`;
 USE `pos_db`;
 
 CREATE TABLE `membership` (
-	`mem_id`	INT	NOT NULL,
 	`mem_id`	INT auto_increment,
 	`customer_name`	VARCHAR(20)	NULL,
 	`email`	VARCHAR(20)	NOT NULL,
@@ -25,18 +13,15 @@ CREATE TABLE `membership` (
 );
 
 CREATE TABLE `stock` (
-	`stock_id`	BIGINT	NOT NULL,
 	`stock_id`	BIGINT auto_increment,
 	`stock_status`	VARCHAR(20)	NOT NULL,
 	`stock_date`	DATETIME	NOT NULL,
 	`s_quantity`	BIGINT	NOT NULL,
 	`r_quantity`	BIGINT	NOT NULL,
-	`product_id`	BIGINT	
 	`product_id`	BIGINT	null
 );
 
 CREATE TABLE `event` (
-	`event_id`	INT	NOT NULL,
 	`event_id`	INT auto_increment,
 	`event_type`	VARCHAR(20)	NOT NULL,
 	`event_start`	DATETIME	NOT NULL,
@@ -44,14 +29,11 @@ CREATE TABLE `event` (
 );
 
 CREATE TABLE `report` (
-	`report_id`	BIGINT	NOT NULL,
 	`report_id`	BIGINT auto_increment,
 	`quarter`	INT	NULL,
-	`category_id`	BIGINT	NOT NULL,
 	`category_id`	BIGINT	NULL,
 	`sales_performance`	VARCHAR(300)	NULL,
 	`sales_quantity`	INT	NULL,
-	`emp_id`	BIGINT	NOT NULL
 	`emp_id`	BIGINT	NULL
 );
 
@@ -76,47 +58,35 @@ CREATE TABLE `product` (
 	`product_detail`	VARCHAR(100)	NULL,
 	`quantity`	INT	NULL,
 	`price`	INT	NULL,
-	`event_id`	INT	NOT NULL,
-	`category_id`	bigINT	NOT NULL,
---	`report_id`	bigINT	NOT NULL
 	`event_id`	INT	NULL,
 	`category_id`	bigINT	NULL
 );
 
 CREATE TABLE `refund` (
-	`refund_id`	BIGINT	NOT NULL,
 	`refund_id`	BIGINT auto_increment,
 	`refund_quantity`	INT	NOT NULL,
 	`refund_reason`	TEXT	NULL,
 	`refund_date`	DATETIME	NULL,
 	`exchange_date`	DATETIME	NULL,
-	`product_id`	bigINT	NOT NULL,
-	`recp_id`	BIGINT	NOT NULL
 	`product_id`	bigINT	NULL,
 	`recp_id`	BIGINT	NULL
 );
 
 CREATE TABLE `receipt` (
-	`recp_id`	BIGINT	NOT NULL,
 	`recp_id`	BIGINT auto_increment,
 	`recp_date`	DATETIME	NOT NULL,
 	`recp_refund`	BOOLEAN	NULL CHECK(recp_refund = TRUE OR recp_refund = FALSE),
 	`recp_way`	VARCHAR(20)	NOT NULL,
 	`total_price`	INT	NOT NULL,
 	`mem_id`	INT	NULL ,
-	`category_id`	bigINT	NOT NULL,
-	`report_id`	bigINT	NOT NULL
 	`category_id`	bigINT	NULL,
 	`report_id`	bigINT NULL
 );
 
 CREATE TABLE `sales` (
-	`sales_id`	BIGINT	NOT NULL,
 	`sales_id`	BIGINT auto_increment,
 	`sales_quantity`	INT	NOT NULL,
 	`sales_price`	INT	NOT NULL,
-	`product_id`	BIGINT	NOT NULL,
-	`recp_id`	BIGINT	NOT NULL
 	`product_id`	BIGINT	NULL,
 	`recp_id`	BIGINT	NULL
 );
@@ -130,8 +100,6 @@ AlTER TABLE `membership` ADD CONSTRAINT `UNIQUE_MEMBERSHIP` UNIQUE(`email`);
 ALTER TABLE `stock` ADD CONSTRAINT `PK_STOCK` PRIMARY KEY (
 	`stock_id`
 );
-
-
 
 
 ALTER TABLE `event` ADD CONSTRAINT `PK_EVENT` PRIMARY KEY (
@@ -178,15 +146,20 @@ ALTER TABLE `sales` AUTO_INCREMENT = 300;
 
 INSERT INTO category (category_id, category_name)
 VALUES
-(1, '가전제품'),
-(2, '의류');
+(1, '간편식사'),
+(2, '즉석조리'),
+(3, '과자류'),
+(4, '아이스크림'),
+(5, '식품'),
+(6, '음료'),
+(7, '생활용품');
 
 INSERT INTO event (event_id, event_type, event_start, event_end)
 VALUES
 (1, '신년 할인', '2024-01-01 00:00:00', '2024-01-15 23:59:59'),
-(2, '구정 할인', '2024-02-01 00:00:00', '2024-02-10 23:59:59');
-(3, '군인 할인', '2024-01-01 00:00:00', '2024-05-31 23:59:59');
-(4, '직원 할인', '2024-01-01 00:00:00', '2024-05-31 23:59:59');
+(2, '구정 할인', '2024-02-01 00:00:00', '2024-02-10 23:59:59'),
+(3, '군인 할인', '2024-01-01 00:00:00', '2024-05-31 23:59:59'),
+(4, '직원 할인', '2024-01-01 00:00:00', '2025-05-31 23:59:59');
 
 INSERT INTO employee (emp_id, work_date, start_time, end_time, work_hour, position)
 VALUES
@@ -207,8 +180,6 @@ VALUES
     (8, '박소연', 'parks@example.com', '01099998888', '1998', '경기도 수원시', 400);
 
 -- ---------------------------------------------------------------------------------------------------
-
-
 
 INSERT INTO stock (stock_id, stock_status, stock_date, s_quantity, r_quantity, product_id)
 VALUES
@@ -265,3 +236,4 @@ ALTER TABLE `receipt` ADD CONSTRAINT `fk_receipt_report` FOREIGN KEY(`report_id`
 ALTER TABLE `sales` ADD CONSTRAINT `fk_sales_product` FOREIGN KEY(`product_id`) REFERENCES `product`(`product_id`);
 
 ALTER TABLE `sales` ADD CONSTRAINT `fk_sales_receipt` FOREIGN KEY(`recp_id`) REFERENCES `receipt`(`recp_id`);
+
