@@ -160,15 +160,15 @@ INSERT INTO refund (refund_quantity, refund_reason, refund_date, exchange_date, 
 VALUES
 (2, '불량 제품', '2024-01-10 14:00:00', NULL, 500, 400);
 
-INSERT INTO receipt (recp_date, recp_refund, recp_way, total_price, mem_id, category_id)
+INSERT INTO receipt (recp_date, recp_refund, recp_way, total_price, mem_id)
 VALUES
-('2024-01-01 12:00:00', TRUE, '카드', 1500000, 1, 4),
-('2024-01-02 15:00:00', FALSE, '현금', 40000, 2, 3);
+('2024-01-01 12:00:00', TRUE, '카드', 1500000, 1),
+('2024-01-02 15:00:00', FALSE, '현금', 40000, 2);
 
-INSERT INTO sales (sales_quantity, sales_price, product_id, recp_id)
+INSERT INTO sales (sales_quantity, sales_price, product_id, recp_id, category_id)
 VALUES
-(1, 1500000, 500, 400),
-(2, 40000, 501, 401);
+(1, 1500000, 500, 400, 7),
+(2, 40000, 501, 401, 7);
 
 ALTER TABLE `stock` ADD CONSTRAINT `fk_STOCK` FOREIGN KEY(`product_id`) REFERENCES product(`product_id`);
 
@@ -186,9 +186,9 @@ ALTER TABLE `refund` ADD CONSTRAINT `fk_refund_receipt` FOREIGN KEY(`recp_id`) R
 
 ALTER TABLE `receipt` ADD CONSTRAINT `fk_receipt_mem` FOREIGN KEY(`mem_id`) REFERENCES `membership`(`mem_id`);
 
-ALTER TABLE `receipt` ADD CONSTRAINT `fk_receipt_category` FOREIGN KEY(`category_id`) REFERENCES `category`(`category_id`);
-
 ALTER TABLE `receipt` ADD CONSTRAINT `fk_receipt_report` FOREIGN KEY(`report_id`) REFERENCES `report`(`report_id`);
+
+ALTER TABLE `sales` ADD CONSTRAINT `fk_sales_category` FOREIGN KEY(`category_id`) REFERENCES `category`(`category_id`);
 
 ALTER TABLE `sales` ADD CONSTRAINT `fk_sales_product` FOREIGN KEY(`product_id`) REFERENCES `product`(`product_id`);
 
