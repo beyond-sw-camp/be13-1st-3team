@@ -102,6 +102,10 @@ ALTER TABLE `receipt` AUTO_INCREMENT = 400;
 
 ALTER TABLE `sales` AUTO_INCREMENT = 300;
 
+ALTER TABLE `stock` MODIFY s_quantity BIGINT DEFAULT 0;
+
+ALTER TABLE `stock` MODIFY r_quantity BIGINT DEFAULT 0;
+
 INSERT INTO category (category_id, category_name)
 VALUES
 (1, '간편식사'),
