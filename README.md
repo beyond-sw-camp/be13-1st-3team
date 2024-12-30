@@ -4,9 +4,9 @@
 
 ## 프로젝트명: Point Of Sales Management Of Sales
 
-|<img src="https://avatars.githubusercontent.com/Sirius147" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/128581270?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/77000498?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/74580387?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/kwonjiin" width="150" height="150"/>|
+|<img src="https://avatars.githubusercontent.com/Sirius147" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/128581270?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/77000498?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/ericyum" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/kwonjiin" width="150" height="150"/>|
 |:-:|:-:|:-:|:-:|:-:|
-|이성일<br/>[@Sirius147](https://github.com/Sirius147)|박서준<br/>[@minju0224](https://github.com/minju0224)|오영광<br/>[@we4sley](https://github.com/we4sley)|염정운<br/>[@WhooGeek](https://github.com/WhooGeek)|권지민<br/>[@Kwonjiin](https://github.com/kwonjiin)|
+|이성일<br/>[@Sirius147](https://github.com/Sirius147)|박서준<br/>[@minju0224](https://github.com/minju0224)|오영광<br/>[@we4sley](https://github.com/we4sley)|염정운<br/>[@ericyum](https://github.com/ericyum)|권지민<br/>[@Kwonjiin](https://github.com/kwonjiin)|
 
 <br/> <br/>
 
