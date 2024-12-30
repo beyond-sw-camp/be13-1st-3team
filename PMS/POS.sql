@@ -58,7 +58,7 @@ CREATE TABLE `product` (
 	`price`	INT	NULL,
 	`event_id`	INT	NOT NULL,
 	`category_id`	bigINT	NOT NULL,
-	`report_id`	bigINT	NOT NULL
+--	`report_id`	bigINT	NOT NULL
 );
 
 CREATE TABLE `refund` (
@@ -136,6 +136,11 @@ ALTER TABLE `sales` ADD CONSTRAINT `PK_SALES` PRIMARY KEY (
 );
 
 
+INSERT INTO category (category_id, category_name)
+VALUES
+(1, '가전제품'),
+(2, '의류');
+
 INSERT INTO membership (mem_id, customer_name, email, mobile, birth_year, addr, point)
 VALUES
 (1, '홍길동', 'hong@example.com', '01012345678', '1985', '서울특별시 강남구', 500),
@@ -165,15 +170,10 @@ VALUES
 (202, '2024-01-02', '2024-01-02 09:00:00', '2024-01-02 18:00:00', '08:00:00', '직원');
 
 
-INSERT INTO category (category_id, category_name)
+INSERT INTO product (product_id, ex_date, product_name, product_detail, quantity, price, event_id, category_id)
 VALUES
-(1, '가전제품'),
-(2, '의류');
-
-INSERT INTO product (product_id, ex_date, product_name, product_detail, quantity, price, event_id, category_id, report_id)
-VALUES
-(101, '2025-12-31', '노트북', '고성능 노트북', 10, 1500000, 1, 1, 1),
-(102, '2025-12-31', '티셔츠', '면 티셔츠', 50, 20000, 2, 2, 2);
+(101, '2025-12-31', '노트북', '고성능 노트북', 10, 1500000, 1, 1),
+(102, '2025-12-31', '티셔츠', '면 티셔츠', 50, 20000, 2, 2);
 
 
 INSERT INTO refund (refund_id, refund_quantity, refund_reason, refund_date, exchange_date, product_id, recp_id)
@@ -201,8 +201,6 @@ ALTER TABLE `report` ADD CONSTRAINT `fk_report_employee` FOREIGN KEY(`emp_id`) R
 ALTER TABLE `product` ADD CONSTRAINT `fk_product_event` FOREIGN KEY(`event_id`) REFERENCES `event`(`event_id`);
 
 ALTER TABLE `product` ADD CONSTRAINT `fk_product_category` FOREIGN KEY(`category_id`) REFERENCES `category`(`category_id`);
-
-ALTER TABLE `product` ADD CONSTRAINT `fk_product_report` FOREIGN KEY(`report_id`) REFERENCES `report`(`report_id`);
 
 ALTER TABLE `refund` ADD CONSTRAINT `fk_refund_product` FOREIGN KEY(`product_id`) REFERENCES `product`(`product_id`);
 
