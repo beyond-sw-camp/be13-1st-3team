@@ -79,7 +79,6 @@ CREATE TABLE `receipt` (
 	`recp_way`	VARCHAR(20)	NOT NULL,
 	`total_price`	INT	NOT NULL,
 	`mem_id`	INT	NULL ,
-	`category_id`	bigINT	NULL,
 	`report_id`	bigINT NULL
 );
 
@@ -88,6 +87,7 @@ CREATE TABLE `sales` (
 	`sales_quantity`	INT	NOT NULL,
 	`sales_price`	INT	NOT NULL,
 	`product_id`	BIGINT	NULL,
+	`category_id`	bigINT	NULL,
 	`recp_id`	BIGINT	NULL
 );
 
