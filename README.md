@@ -4,9 +4,9 @@
 
 ## 프로젝트명: Point Of Sales Management Of Sales
 
-|<img src="https://avatars.githubusercontent.com/Sirius147" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/128581270?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/77000498?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/ericyum" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/kwonjiin" width="150" height="150"/>|
+|<img src="https://avatars.githubusercontent.com/Sirius147" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/128581270?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/143144372?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/ericyum" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/kwonjiin" width="150" height="150"/>|
 |:-:|:-:|:-:|:-:|:-:|
-|이성일<br/>[@Sirius147](https://github.com/Sirius147)|박서준<br/>[@minju0224](https://github.com/minju0224)|오영광<br/>[@we4sley](https://github.com/we4sley)|염정운<br/>[@ericyum](https://github.com/ericyum)|권지민<br/>[@Kwonjiin](https://github.com/kwonjiin)|
+|이성일<br/>[@Sirius147](https://github.com/Sirius147)|박서준<br/>[@minju0224](https://github.com/minju0224)|오영광<br/>[@OhGlory](https://github.com/OhGlory)|염정운<br/>[@ericyum](https://github.com/ericyum)|권지민<br/>[@Kwonjiin](https://github.com/kwonjiin)|
 
 <br/> <br/>
 
@@ -69,4 +69,4 @@ POS 시스템에서 발생한 거래 데이터를 기반으로 매출 분석을 
 | 권지민 |  | <br/>
 | 박서준 | POS기의 결제 프로세스를 이해하고 ERD설계와 데이터 구성, 참조 참조관계설정 등 프로젝트의 초기 구축 단계의 중요성을 깨닳았다. | <br/>
 | 염정운 | 편의점 POS의 시스템을 mariaDB를 통해 구현 하면서 테이블과 테이블 사이를 어떻게 잇는지와 쿼리문을 짜고 실행하는 기초를 다질 수 있었다. | <br/>
-| 오영광 |  | <br/>
+| 오영광 | POS 시스템의 전반적인 프로세스를 이해하고 팀원들과 협업하는 과정에서 소통의 중요성을 느꼈다. 데이터모델링을 하면서 나온 문제를 디버깅하면서 뜻 깊은 시간이었고 너무 잘해준 우리 팀원들 앞으로도 화이팅! | <br/>
