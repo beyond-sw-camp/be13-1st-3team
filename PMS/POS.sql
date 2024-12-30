@@ -166,7 +166,7 @@ VALUES
     (7, '김도현', 'kimd@example.com', '01011112222', '1983', '울산광역시 중구', 700),
     (8, '박소연', 'parks@example.com', '01099998888', '1998', '경기도 수원시', 400);
 
-
+-- ---------------------------------------------------------------------------------------------------
 
 INSERT INTO stock (stock_id, stock_status, stock_date, s_quantity, r_quantity, product_id)
 VALUES
