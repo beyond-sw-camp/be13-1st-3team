@@ -161,10 +161,10 @@ VALUES
 (3, '군인 할인', '2024-01-01 00:00:00', '2024-05-31 23:59:59'),
 (4, '직원 할인', '2024-01-01 00:00:00', '2025-05-31 23:59:59');
 
-INSERT INTO employee (emp_id, work_date, start_time, end_time, work_hour, position)
+INSERT INTO employee (work_date, start_time, end_time, work_hour, position)
 VALUES
-(201, '2024-01-01', '2024-01-01 09:00:00', '2024-01-01 18:00:00', '08:00:00', '관리자'),
-(202, '2024-01-02', '2024-01-02 09:00:00', '2024-01-02 18:00:00', '08:00:00', '직원');
+('2024-01-01', '2024-01-01 09:00:00', '2024-01-01 18:00:00', '08:00:00', '관리자'),
+('2024-01-02', '2024-01-02 09:00:00', '2024-01-02 18:00:00', '08:00:00', '직원');
 
 
 
@@ -181,37 +181,36 @@ VALUES
 
 -- ---------------------------------------------------------------------------------------------------
 
-INSERT INTO stock (stock_id, stock_status, stock_date, s_quantity, r_quantity, product_id)
+INSERT INTO stock (stock_status, stock_date, s_quantity, r_quantity, product_id)
 VALUES
-(1, '입고', '2024-01-01 10:00:00', 100, 0, 101),
-(2, '출고', '2024-01-05 15:00:00', 0, 50, 102);
+('입고', '2024-01-01 10:00:00', 100, 0, 500),
+('출고', '2024-01-05 15:00:00', 0, 50, 501);
 
-INSERT INTO report (report_id, quarter, category_id, sales_performance, sales_quantity, emp_id)
+INSERT INTO report (quarter, category_id, sales_performance, sales_quantity)
 VALUES
-(1, 1, 1, '매우 우수', 1500, 201),
-(2, 2, 2, '보통', 800, 202);
+(1, 1, '매우 우수', 1500),
+(2, 2, '보통', 800);
 
 
-INSERT INTO product (product_id, ex_date, product_name, product_detail, quantity, price, event_id, category_id)
+INSERT INTO product (ex_date, product_name, product_detail, quantity, price, category_id)
 VALUES
-(101, '2025-12-31', '노트북', '고성능 노트북', 10, 1500000, 1, 1),
-(102, '2025-12-31', '티셔츠', '면 티셔츠', 50, 20000, 2, 2);
+('2025-12-31', '조스바', '딸기맛', 100, 1200, 4),
+('2025-12-31', '초코파이', '오리지널', 50, 6000, 3);
 
 
-INSERT INTO refund (refund_id, refund_quantity, refund_reason, refund_date, exchange_date, product_id, recp_id)
+INSERT INTO refund (refund_quantity, refund_reason, refund_date, exchange_date, product_id, recp_id)
 VALUES
-(1, 2, '불량 제품', '2024-01-10 14:00:00', NULL, 101, 501),
-(2, 1, '사이즈 불일치', '2024-01-11 11:00:00', '2024-01-12 10:00:00', 102, 502);
+(2, '불량 제품', '2024-01-10 14:00:00', NULL, 500, 400);
 
-INSERT INTO receipt (recp_id, recp_date, recp_refund, recp_way, total_price, mem_id, category_id, report_id)
+INSERT INTO receipt (recp_date, recp_refund, recp_way, total_price, mem_id, category_id)
 VALUES
-(501, '2024-01-01 12:00:00', TRUE, '카드', 1500000, 1, 1, 1),
-(502, '2024-01-02 15:00:00', FALSE, '현금', 40000, 2, 2, 2);
+('2024-01-01 12:00:00', TRUE, '카드', 1500000, 1, 4),
+('2024-01-02 15:00:00', FALSE, '현금', 40000, 2, 3);
 
-INSERT INTO sales (sales_id, sales_quantity, sales_price, product_id, recp_id)
+INSERT INTO sales (sales_quantity, sales_price, product_id, recp_id)
 VALUES
-(1, 1, 1500000, 101, 501),
-(2, 2, 40000, 102, 502);
+(1, 1500000, 500, 400),
+(2, 40000, 501, 401);
 
 ALTER TABLE `stock` ADD CONSTRAINT `fk_STOCK` FOREIGN KEY(`product_id`) REFERENCES product(`product_id`);
 
