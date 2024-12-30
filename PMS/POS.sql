@@ -1,5 +1,7 @@
- CREATE DATABASE `pos_db`;
+DROP DATABASE pos_db;
+CREATE DATABASE `pos_db`;
 USE `pos_db`;
+
 CREATE TABLE `membership` (
 	`mem_id`	INT	NOT NULL,
 	`customer_name`	VARCHAR(20)	NULL,
@@ -228,3 +230,4 @@ ALTER TABLE `receipt` ADD CONSTRAINT `fk_receipt_report` FOREIGN KEY(`report_id`
 ALTER TABLE `sales` ADD CONSTRAINT `fk_sales_product` FOREIGN KEY(`product_id`) REFERENCES `product`(`product_id`);
 
 ALTER TABLE `sales` ADD CONSTRAINT `fk_sales_receipt` FOREIGN KEY(`recp_id`) REFERENCES `receipt`(`recp_id`);
+
