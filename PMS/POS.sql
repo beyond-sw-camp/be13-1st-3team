@@ -3,7 +3,7 @@ CREATE DATABASE `pos_db`;
 USE `pos_db`;
 
 CREATE TABLE `membership` (
-	`mem_id`	INT auto_increment,
+	`mem_id`	INT AUTO_INCREMENT PRIMARY KEY,
 	`customer_name`	VARCHAR(20)	NULL,
 	`email`	VARCHAR(20)	NOT NULL,
 	`mobile`	VARCHAR(11)	NULL,
@@ -13,7 +13,7 @@ CREATE TABLE `membership` (
 );
 
 CREATE TABLE `stock` (
-	`stock_id`	BIGINT auto_increment,
+	`stock_id`	BIGINT AUTO_INCREMENT PRIMARY KEY,
 	`stock_status`	VARCHAR(20)	NOT NULL,
 	`stock_date`	DATETIME	NOT NULL,
 	`s_quantity`	BIGINT	NOT NULL,
@@ -22,14 +22,14 @@ CREATE TABLE `stock` (
 );
 
 CREATE TABLE `event` (
-	`event_id`	INT auto_increment,
+	`event_id`	INT AUTO_INCREMENT PRIMARY KEY,
 	`event_type`	VARCHAR(20)	NOT NULL,
 	`event_start`	DATETIME	NOT NULL,
 	`event_end`	DATETIME	NOT NULL
 );
 
 CREATE TABLE `report` (
-	`report_id`	BIGINT auto_increment,
+	`report_id`	BIGINT AUTO_INCREMENT PRIMARY KEY,
 	`quarter`	INT	NULL,
 	`category_id`	BIGINT	NULL,
 	`sales_performance`	VARCHAR(300)	NULL,
@@ -38,7 +38,7 @@ CREATE TABLE `report` (
 );
 
 CREATE TABLE `employee` (
-	`emp_id`	BIGINT auto_increment,
+	`emp_id`	BIGINT AUTO_INCREMENT PRIMARY KEY,
 	`work_date`	DATE	NULL,
 	`start_time`	DATETIME	NULL,
 	`end_time`	DATETIME	NULL,
@@ -47,12 +47,12 @@ CREATE TABLE `employee` (
 );
 
 CREATE TABLE `category` (
-	`category_id`	BIGINT auto_increment,
+	`category_id`	BIGINT AUTO_INCREMENT PRIMARY KEY,
 	`category_name`	VARCHAR(20)	NOT NULL
 ); 	
 
 CREATE TABLE `product` (
-	`product_id`	BIGINT auto_increment,
+	`product_id`	BIGINT AUTO_INCREMENT PRIMARY KEY,
 	`ex_date`	DATETIME	NULL,
 	`product_name`	VARCHAR(30)	NULL,
 	`product_detail`	VARCHAR(100)	NULL,
@@ -63,7 +63,7 @@ CREATE TABLE `product` (
 );
 
 CREATE TABLE `refund` (
-	`refund_id`	BIGINT auto_increment,
+	`refund_id`	BIGINT AUTO_INCREMENT PRIMARY KEY,
 	`refund_quantity`	INT	NOT NULL,
 	`refund_reason`	TEXT	NULL,
 	`refund_date`	DATETIME	NULL,
@@ -73,7 +73,7 @@ CREATE TABLE `refund` (
 );
 
 CREATE TABLE `receipt` (
-	`recp_id`	BIGINT auto_increment,
+	`recp_id`	BIGINT AUTO_INCREMENT PRIMARY KEY,
 	`recp_date`	DATETIME	NOT NULL,
 	`recp_refund`	BOOLEAN	NULL CHECK(recp_refund = TRUE OR recp_refund = FALSE),
 	`recp_way`	VARCHAR(20)	NOT NULL,
@@ -84,63 +84,21 @@ CREATE TABLE `receipt` (
 );
 
 CREATE TABLE `sales` (
-	`sales_id`	BIGINT auto_increment,
+	`sales_id`	BIGINT AUTO_INCREMENT PRIMARY KEY,
 	`sales_quantity`	INT	NOT NULL,
 	`sales_price`	INT	NOT NULL,
 	`product_id`	BIGINT	NULL,
 	`recp_id`	BIGINT	NULL
 );
 
-ALTER TABLE `membership` ADD CONSTRAINT `PK_MEMBERSHIP` PRIMARY KEY (
-	`mem_id`
-);
 
 AlTER TABLE `membership` ADD CONSTRAINT `UNIQUE_MEMBERSHIP` UNIQUE(`email`);
 
-ALTER TABLE `stock` ADD CONSTRAINT `PK_STOCK` PRIMARY KEY (
-	`stock_id`
-);
-
-
-ALTER TABLE `event` ADD CONSTRAINT `PK_EVENT` PRIMARY KEY (
-	`event_id`
-);
-
-ALTER TABLE `report` ADD CONSTRAINT `PK_REPORT` PRIMARY KEY (
-	`report_id`
-);
-
-
-ALTER TABLE `employee` ADD CONSTRAINT `PK_EMPLOYEE` PRIMARY KEY (
-	`emp_id`
-);
-
 ALTER TABLE `employee` AUTO_INCREMENT = 200;
-
-ALTER TABLE `category` ADD CONSTRAINT `PK_CATEGORY` PRIMARY KEY (
-	`category_id`
-);
-
-ALTER TABLE `product` ADD CONSTRAINT `PK_PRODUCT` PRIMARY KEY (
-	`product_id`
-);
 
 ALTER TABLE `product` AUTO_INCREMENT = 500;
 
-ALTER TABLE `refund` ADD CONSTRAINT `PK_REFUND` PRIMARY KEY (
-	`refund_id`
-);
-
-ALTER TABLE `receipt` ADD CONSTRAINT `PK_RECEIPT` PRIMARY KEY (
-	`recp_id`
-);
-
 ALTER TABLE `receipt` AUTO_INCREMENT = 400;
-
-
-ALTER TABLE `sales` ADD CONSTRAINT `PK_SALES` PRIMARY KEY (
-	`sales_id`
-);
 
 ALTER TABLE `sales` AUTO_INCREMENT = 300;
 
