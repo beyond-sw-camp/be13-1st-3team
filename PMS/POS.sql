@@ -1,4 +1,14 @@
 -- CREATE DATABASE `pos_db`;
+DROP TABLE `stock`;
+DROP TABLE `refund`;
+DROP TABLE `sales`;
+DROP TABLE `product`;
+DROP TABLE `receipt`;
+DROP TABLE `event`;
+DROP TABLE `report`;
+DROP TABLE `employee`;
+DROP TABLE `category`;
+DROP TABLE `membership`;
 
 CREATE TABLE `membership` (
 	`mem_id`	INT	NOT NULL,
