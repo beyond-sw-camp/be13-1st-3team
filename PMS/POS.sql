@@ -138,13 +138,8 @@ ALTER TABLE `sales` ADD CONSTRAINT `PK_SALES` PRIMARY KEY (
 
 INSERT INTO category (category_id, category_name)
 VALUES
-(1, '간편식사'),
-(2, '즉석조리'),
-(3, '과자류'),
-(4, '아이스크림'),
-(5, '식품'),
-(6, '음료'),
-(7, '생활용품');
+(1, '가전제품'),
+(2, '의류');
 
 INSERT INTO event (event_id, event_type, event_start, event_end)
 VALUES
@@ -178,6 +173,18 @@ VALUES
 (1, '입고', '2024-01-01 10:00:00', 100, 0, 101),
 (2, '출고', '2024-01-05 15:00:00', 0, 50, 102);
 
+<<<<<<< HEAD
+=======
+INSERT INTO event (event_id, event_type, event_start, event_end)
+VALUES
+(1, '신년 할인', '2024-01-01 00:00:00', '2024-01-15 23:59:59'),
+(2, '구정 할인', '2024-02-01 00:00:00', '2024-02-10 23:59:59');
+(3, '군인 할인', '2024-01-01 00:00:00', '2024-05-31 23:59:59');
+(4, '직원 할인', '2024-01-01 00:00:00', '2024-05-31 23:59:59');
+요거 두개 박고 갈게요
+
+
+>>>>>>> 862f04b7c1986fa88470bf39a77fd67150e32118
 INSERT INTO report (report_id, quarter, category_id, sales_performance, sales_quantity, emp_id)
 VALUES
 (1, 1, 1, '매우 우수', 1500, 201),
