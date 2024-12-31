@@ -83,7 +83,7 @@ POS 시스템에서 발생한 거래 데이터를 기반으로 매출 분석을 
     <summary>판매 거래 관련 기능</summary>
         <details>
         <summary>1. 판매할 판매 기록 추가</summary>
-            <img src="https://github.com/user-attachments/assets/10d8e5dd-baf9-4a67-870b-9b60aa329263">
+            <img src="https://github.com/user-attachments/assets/6c2430a2-a4e4-427f-8060-fb6b7bc6396d">
         </details>
         <details>
             <summary>2. 영수증 생성</summary>
