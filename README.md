@@ -65,7 +65,7 @@ POS 시스템에서 발생한 거래 데이터를 기반으로 매출 분석을 
 ![ERD](https://github.com/user-attachments/assets/9ce984f8-2ee9-4912-b943-25708b442826)
 <br/> <br/>
 ## 테이블명세서
-→ [테이블 명세서 바로가기](https://docs.google.com/spreadsheets/d/1Qbms6sxZx3EFGe-pK14aio6_7FWvGO805NjnDVXdgvA/edit?gid=1177483829#gid=1177483829)
+→ [테이블 명세서 바로가기](https://docs.google.com/spreadsheets/d/e/2PACX-1vS5rxMI8SRDOVOjeS0rz6yOV6m1JF6ZVXeXLizolwRlsFspXhi2yaNrARWCirmTbGPKE1rVL6S9Xmiw/pub?output=pdf)
 
 ![테이블명세서1](https://github.com/user-attachments/assets/5891d4ef-68ed-4248-aabf-b153a64984e6)
 
