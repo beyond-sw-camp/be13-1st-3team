@@ -107,11 +107,11 @@ POS 시스템에서 발생한 거래 데이터를 기반으로 매출 분석을 
         </details>
         <details>
             <summary>7. 회원 포인트 적립</summary>
-            <img src="https://github.com/user-attachments/assets/e1eda0d7-221f-42a5-b27d-e51ba2f1a26d">
+            <img src="https://github.com/user-attachments/assets/f3bf9b80-d246-4e93-ab9f-07bf135ebb5c">
         </details>
         <details>
             <summary>8. 회원이 포인트 사용시</summary>
-            <img src="https://github.com/user-attachments/assets/f1dbf874-1d03-471d-ab64-88c8c5719414">
+            <img src="https://github.com/user-attachments/assets/5b8b3983-06ea-41d1-abcf-07a52dadc41b">
         </details>
         <details>
             <summary>9. 최종 영수증</summary>
