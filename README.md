@@ -128,6 +128,7 @@ POS 시스템에서 발생한 거래 데이터를 기반으로 매출 분석을 
             <img src="https://github.com/user-attachments/assets/529fc878-cb69-4344-b211-33328fbb6d66">
         </details>
             <details><summary>3.환불시 재고 증가</summary>
+            <img src="https://github.com/user-attachments/assets/e75d8dbe-9d23-4636-9df7-7e037eddbf4b">
             <img src="https://github.com/user-attachments/assets/eb8bc8a3-bdb5-4205-9363-a7b442795f4d">
         </details>
             <details><summary>4.영수증 환불반영</summary>
