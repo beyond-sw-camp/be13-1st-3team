@@ -129,7 +129,7 @@ POS 시스템에서 발생한 거래 데이터를 기반으로 매출 분석을 
     </details>
     <details>
     <summary>상품 재고 관련 기능</summary>
-        <details><summary>1.상품 입고(재고 수량 추가)</summary>
+        <details><summary>1.상품 입고(재고 수량 추가)</summary>
             <img src="img/test_img/customer_test_img/음식점 검색 기능/고객_음식점이름검색.gif" alt="이름검색_gif">
         </details>
         <details><summary>2.상품 판매(재고 수량 감소)</summary>
