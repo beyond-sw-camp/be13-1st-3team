@@ -10,9 +10,14 @@
 
 <br/> <br/>
 
-## 프로젝트 소개
+## 프로젝트 개요
+POS(Point of Sale)는 판매 시점 관리 시스템을 의미합니다. 주로 소매업, 특히 편의점, 슈퍼마켓, 레스토랑 등에서 사용되며, 고객과의 거래가 이루어지는 시점에서 상품의 판매와 관련된 여러 작업을 처리하는 시스템입니다. 
 
-<br/>
+![image](https://blog.kakaocdn.net/dn/cLsQEp/btsLw6OvTF1/fqtibN2Hfrv1yrxEX10ISk/img.jpg)
+
+POS 사용 전에는 주로 금전 등록기를 사용했습니다. 많은 업무가 수작업으로 진행되어 효율성이 낮고 오류 발생 가능성이 높으며, 고객 서비스의 품질 또한 제한적이었습니다. 편의점 POS 시스템은 단순히 결제 수단을 제공하는 것을 넘어, 매장 운영, 고객 서비스, 데이터 기반 경영을 최적화하는 중요한 도구입니다. 
+<br/> <br/>
+## 프로젝트 목적
 
 ### 실시간 재고 관리
 
@@ -25,7 +30,7 @@ POS 시스템에서 발생한 거래 데이터를 기반으로 매출 분석을 
 ### 고객 맞춤형 서비스
 
 고객의 구매 패턴을 분석하여 자주 구매하는 제품을 추천하거나 자주 구매하는 상품의  할인 정보를 알려줌으로써 매장에 대한 고객 만족도를 높일 수 있습니다.
-
+<br/> <br/>
 ## 프로젝트 배경
 
 ![image](https://github.com/user-attachments/assets/886f3649-ef2b-4e1b-9c73-126eed05d60a)
@@ -37,32 +42,32 @@ POS 시스템에서 발생한 거래 데이터를 기반으로 매출 분석을 
 최근 미디어 콘텐츠와 편의점 산업의 융합으로 인해 변화하는 소비 트렌드에 대응하며, 소상공인들에게 실질적인 도움을 주는 디지털 도구를 개발하는 데 초점을 맞추고 있습니다.
 
 미디어 콘텐츠와 결합된 상품이 소비자들의 구매 패턴에 미치는 영향력이 증가하면서, **편의점 내 물품의 재고 관리와 현황 파악의 중요성**이 더욱 부각되고 있습니다을 느꼈습니다
-
+<br/> <br/>
 ## 주요기능소개
 
 * **상품 등록 및 판매 관련 소비자와 의사소통을 도와준다**
 * **결제 및 재고 관리 관련된 일련의 프로세스를 관리한다**
 * **고객 관리 및 상품 이벤트 등록을 통해 프로모션을 진행한다**
 * **직원관리를 통해 효율적인 매장관리에 기여한다**
-
+<br/> <br/>
 ## wbs
 
 ![wbs](https://github.com/user-attachments/assets/1753af09-eb02-495d-9742-22a4c37e3167)
-
+<br/> <br/>
 ## 요구사항명세서
 
 ![요구사항명세서1](https://github.com/user-attachments/assets/f11397ce-c921-4997-9780-dc99225dcd79)
 ![요구사항명세서2](https://github.com/user-attachments/assets/0d002e89-1dd4-43b4-9832-779694197d01)
-
+<br/> <br/>
 ## ERD
 
 ![image](https://github.com/user-attachments/assets/78cf728e-a0cc-4e05-83c9-7a9352264ddb)
-
+<br/> <br/>
 ## 테이블명세서
 
 ![테이블명세서1](https://github.com/user-attachments/assets/5891d4ef-68ed-4248-aabf-b153a64984e6)
 ![테이블명세서2](https://github.com/user-attachments/assets/5696eb6f-6424-4d5c-8fee-443b4c1704e5)
-
+<br/> <br/>
 ## 테스트 케이스
 → [테스트 케이스 바로가기](https://docs.google.com/spreadsheets/d/1djYNOycBP0-a5PDg302wS7SK1A8XTu9u7n0CP0yBa0A/edit?gid=353703156#gid=353703156)
 
@@ -206,7 +211,7 @@ POS 시스템에서 발생한 거래 데이터를 기반으로 매출 분석을 
 
 
 
-
+<br/> <br/>
 
 
 ## 회고록
