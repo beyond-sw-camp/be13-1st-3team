@@ -51,7 +51,7 @@ POS 시스템에서 발생한 거래 데이터를 기반으로 매출 분석을 
 * **고객 관리 및 상품 이벤트 등록을 통해 프로모션을 진행**
 * **직원관리를 통해 효율적인 매장관리에 기여**
 <br/> <br/>
-## wbs
+## WBS(Work Breakdown Structure)
 
 ![wbs](https://github.com/user-attachments/assets/1753af09-eb02-495d-9742-22a4c37e3167)
 <br/> <br/>
@@ -60,9 +60,9 @@ POS 시스템에서 발생한 거래 데이터를 기반으로 매출 분석을 
 ![요구사항명세서1](https://github.com/user-attachments/assets/f11397ce-c921-4997-9780-dc99225dcd79)
 ![요구사항명세서2](https://github.com/user-attachments/assets/0d002e89-1dd4-43b4-9832-779694197d01)
 <br/> <br/>
-## ERD
+## ERD(Entity Relationship Diagram)
 
-![image](https://github.com/user-attachments/assets/78cf728e-a0cc-4e05-83c9-7a9352264ddb)
+![ERD](https://github.com/user-attachments/assets/9ce984f8-2ee9-4912-b943-25708b442826)
 <br/> <br/>
 ## 테이블명세서
 → [테이블 명세서 바로가기](https://docs.google.com/spreadsheets/d/1Qbms6sxZx3EFGe-pK14aio6_7FWvGO805NjnDVXdgvA/edit?gid=1177483829#gid=1177483829)
