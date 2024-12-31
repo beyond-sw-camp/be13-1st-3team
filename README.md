@@ -69,9 +69,9 @@ POS 시스템에서 발생한 거래 데이터를 기반으로 매출 분석을 
 ## 테이블명세서
 → [테이블 명세서 바로가기](https://docs.google.com/spreadsheets/d/1Qbms6sxZx3EFGe-pK14aio6_7FWvGO805NjnDVXdgvA/edit?usp=sharing)
 
-![테이블명세서1](https://github.com/user-attachments/assets/5891d4ef-68ed-4248-aabf-b153a64984e6)
+![테이블명세서1](https://github.com/user-attachments/assets/b16fd803-1707-47ef-98df-f9f8bb10d26c)
 
-![테이블명세서2](https://github.com/user-attachments/assets/5696eb6f-6424-4d5c-8fee-443b4c1704e5)
+![테이블명세서2](https://github.com/user-attachments/assets/0d1b8133-84d3-404c-9891-6c56139aaf4b)
 <br/> <br/>
 ## 테스트 케이스
 → [테스트 케이스 바로가기](https://docs.google.com/spreadsheets/d/1djYNOycBP0-a5PDg302wS7SK1A8XTu9u7n0CP0yBa0A/edit?usp=sharing)
@@ -198,7 +198,7 @@ POS 시스템에서 발생한 거래 데이터를 기반으로 매출 분석을 
             <img src="https://github.com/user-attachments/assets/71c73f6a-47d0-4a52-8b91-a73a3bb160ba" alt="고객 등록 이후" width="600">
         </details>
         <details><summary>2.고객 구매 내역 확인</summary>
-            <img src="img/test_img/customer_test_img/음식점 리뷰 작성 기능/음식점 입장 유무 체크.gif" alt="음식점상세정보조회_gif">
+            <img src="https://github.com/user-attachments/assets/1aaf5f08-8363-49c0-beef-4c7dd6d9c76f" alt="고객구매내역조회">
         </details>
     </details>
     <details>
