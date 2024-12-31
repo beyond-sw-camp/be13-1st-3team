@@ -80,39 +80,40 @@ POS 시스템에서 발생한 거래 데이터를 기반으로 매출 분석을 
     <summary>판매 거래 관련 기능</summary>
         <details>
         <summary>1. 판매할 판매 기록 추가</summary>
-            <img src="img/test_img/customer_test_img/회원 관리 기능/joinUser.gif" alt="판매기록_gif">
+            <img src="https://github.com/user-attachments/assets/10d8e5dd-baf9-4a67-870b-9b60aa329263">
         </details>
         <details>
             <summary>2. 영수증 생성</summary>
-            <img src="img/test_img/customer_test_img/회원 관리 기능/login.gif" alt="로그인_gif">
+            <img src="https://github.com/user-attachments/assets/a56490ab-4156-4915-9b8c-cd65cb959b13">
         </details>
         <details>
             <summary>3. 새로 생성된 영수증 ID저장</summary>
-            <img src="img/test_img/customer_test_img/회원 관리 기능/findId.gif" alt="아이디찾기_gif">
+            <img src="https://github.com/user-attachments/assets/833c6814-4c1c-46ca-9c9f-40289394a13e">
         </details>
         <details>
             <summary>4. 판매테이블에 영수증ID 반영</summary>
-            <img src="img/test_img/customer_test_img/회원 관리 기능/findPassword.gif" alt="임시비밀번호발급_gif">
+            <img src="https://github.com/user-attachments/assets/0a4d6051-64c1-43a8-b7c0-04fdb3af6afe">
         </details>
         <details>
             <summary>5. 총 금액 계산</summary>
-            <img src="img/test_img/customer_test_img/회원 관리 기능/getUserInfo.gif" alt="회원정보조회_gif">
+            <img src="https://github.com/user-attachments/assets/9b81f5e6-20a1-41e1-897b-39af46dc41f6">
+          <img src="https://github.com/user-attachments/assets/36372f25-b3d2-4d88-840a-affdb86eec03">
         </details>
         <details>
             <summary>6. 최근 영수증에 기입된 회원ID와 적용될 포인트 저장</summary>
-            <img src="img/test_img/customer_test_img/회원 관리 기능/modifyUserInfo.gif" alt="회원정보수정_gif">
+            <img src="https://github.com/user-attachments/assets/27a55642-b692-40cb-ac86-07a61c7e86fa">
         </details>
         <details>
             <summary>7. 회원 포인트 적립</summary>
-            <img src="img/test_img/customer_test_img/회원 관리 기능/getMyWaitingList.gif" alt="전체조회_gif">
+            <img src="https://github.com/user-attachments/assets/e1eda0d7-221f-42a5-b27d-e51ba2f1a26d">
         </details>
         <details>
             <summary>8. 회원이 포인트 사용시</summary>
-            <img src="img/test_img/customer_test_img/회원 관리 기능/getMyReviewList.gif" alt="리뷰조회_gif">
+            <img src="https://github.com/user-attachments/assets/f1dbf874-1d03-471d-ab64-88c8c5719414">
         </details>
         <details>
             <summary>9. 최종 영수증</summary>
-            <img src="img/test_img/customer_test_img/회원 관리 기능/modifyMyReview.gif" alt="리뷰수정_gif">
+            <img src="https://github.com/user-attachments/assets/956e1502-6d90-4b00-8d2f-a7997319843e">
         </details>
     </details>
     <details>
