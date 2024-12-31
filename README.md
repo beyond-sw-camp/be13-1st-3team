@@ -199,14 +199,21 @@ POS 시스템에서 발생한 거래 데이터를 기반으로 매출 분석을 
     <details>
     <summary>프로모션 및 할인</summary>
         <details><summary>1.쿠폰</summary>
-            <img src="img/test_img/customer_test_img/음식점 리뷰 작성 기능/리뷰 별점 체크.gif" alt="음식점상세정보조회_gif">
+            <p align="center"> <img src="https://github.com/user-attachments/assets/f11f1e50-6475-4131-96b3-20511b81a5a8"))> </p>
+            <p align="center"> <img src="https://github.com/user-attachments/assets/d3ceb247-b2d1-49ed-80be-abe767d448d0"))> </p>
+            <p align="center"> <img src="https://github.com/user-attachments/assets/62d7e60b-e690-47fc-a1c7-2400f1bfd4ee"))> </p>
         </details>
         <details><summary>2.타임할인</summary>
-            <img src="img/test_img/customer_test_img/음식점 리뷰 작성 기능/음식점 입장 유무 체크.gif" alt="음식점상세정보조회_gif">
+            <p align="center"> <img src="https://github.com/user-attachments/assets/990c204f-0b31-48e8-8efb-0feb1304984f"))> </p>
+            <p align="center"> <img src="https://github.com/user-attachments/assets/423e805f-2fde-4414-b98f-928e3add8e70"))> </p>
+            <p align="center"> <img src="https://github.com/user-attachments/assets/ddfd9ff8-4c5c-488e-86be-a1efd73c546c"))> </p>
         </details>
         <details><summary>3.1+1행사</summary>
-            <img src="img/test_img/customer_test_img/음식점 리뷰 작성 기능/음식점 리뷰 작성.gif" alt="음식점상세정보조회_gif">
-        </details>   
+            <p align="center"> <img src="https://github.com/user-attachments/assets/a074f7db-eaf2-4389-b194-4e8014e5995d"))> </p>
+            <p align="center"> <img src="https://github.com/user-attachments/assets/04dc52a0-b34e-4774-a35a-58721f80f1ac"))> </p>
+            <p align="center"> <img src="https://github.com/user-attachments/assets/1fb2c388-2b34-49a3-a706-c7f1a9157d63"))> </p>
+            <p align="center"> <img src="https://github.com/user-attachments/assets/007a5d98-fc75-4abd-a15c-e1069a3a1986"))> </p>
+        </details>    
     </details>
      <details>
     <summary>고객 관리</summary>
