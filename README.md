@@ -116,7 +116,7 @@ POS 시스템에서 발생한 거래 데이터를 기반으로 매출 분석을 
         </details>
         <details>
             <summary>9. 최종 영수증</summary>
-            <img src="https://github.com/user-attachments/assets/956e1502-6d90-4b00-8d2f-a7997319843e">
+            <img src="https://github.com/user-attachments/assets/ddee03a3-f016-47e7-a6f5-af80fb03c61f">
         </details>
     </details>
     <details>
