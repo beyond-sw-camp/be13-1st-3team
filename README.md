@@ -43,6 +43,13 @@ POS 시스템에서 발생한 거래 데이터를 기반으로 매출 분석을 
 
 미디어 콘텐츠와 결합된 상품이 소비자들의 구매 패턴에 미치는 영향력이 증가하면서, **편의점 내 물품의 재고 관리와 현황 파악의 중요성**이 더욱 부각되고 있습니다을 느꼈습니다
 <br/> <br/>
+
+## 기술스택
+<img src="https://img.shields.io/badge/mariaDB-003545?style=for-the-badge&logo=mariaDB&logoColor=white">
+<img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
+<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+
+
 ## 주요기능소개
 
 * **판매 관리를 통한 바코드 스캔과 다양한 결제 처리로 빠르고 정확한 판매 지원**
@@ -160,21 +167,33 @@ POS 시스템에서 발생한 거래 데이터를 기반으로 매출 분석을 
         </details>
     </details>
     <details>
-    <summary>직원 관리 관련 기능</summary>
+   <summary>직원 관리 관련 기능</summary>
         <details><summary>1.직원 등록</summary>
-            <img src="img/test_img/customer_test_img/음식점 상세 조회 기능/음식점 상세 정보 조회.gif" alt="음식점상세정보조회_gif">
+            <img src="https://github.com/user-attachments/assets/7ef169d6-5c92-4ddb-8fe7-2d48c14aa06f" alt="직원 등록">
         </details>
         <details><summary>2.직원 삭제</summary>
-            <img src="img/test_img/customer_test_img/음식점 상세 조회 기능/음식점 메뉴 상세 정보 조회.gif" alt="메뉴상세정보조회_gif">
+            <img src="https://github.com/user-attachments/assets/86095f4f-460f-454f-acaa-17402e68b301" alt="직원 삭제">
         </details>
-        <details><summary>3.근무자 출근</summary>
-            <img src="img/test_img/customer_test_img/음식점 상세 조회 기능/음식점 전체 리뷰 조회.gif" alt="전체리뷰조회_gif">
+        <details><summary>3.근무자 로그인</summary>
+            <img src="https://github.com/user-attachments/assets/62851095-8eba-4346-8868-ff1ebd06ae78" alt="로그인실패">
+            <img src="https://github.com/user-attachments/assets/b2744ae2-8c5b-4431-938a-8a59e4e5d8dc" alt="로그인 성공">
+            <img src="https://github.com/user-attachments/assets/1100ffc9-2883-4dcd-b5b5-ecac9ca0115f" alt="로그인 성공2">
         </details>
-        <details><summary>4.근무자 퇴근</summary>
+        <details><summary>4.출근시간 기록</summary>
+            <img src="https://github.com/user-attachments/assets/62851095-8eba-4346-8868-ff1ebd06ae78" alt="로그인실패">
+        </details>
+        <details><summary>5.근무자 로그아웃</summary>
+            <img src="https://github.com/user-attachments/assets/199529cd-8a96-4b5f-bb43-4d4a4b278345" alt="로그아웃 실">
+            <img src="https://github.com/user-attachments/assets/23e646c1-5005-4fea-82c3-b645d96df7bc" alt="로그아웃 성">
             <img src="img/test_img/customer_test_img/음식점 상세 조회 기능/음식점 사진 포함 리뷰 조회.gif" alt="사진포함리뷰조회_gif">
         </details>
-        <details><summary>5.근무 확인</summary>
-            <img src="img/test_img/customer_test_img/음식점 상세 조회 기능/음식점 전체 리뷰 별점 순 정렬.gif" alt="리뷰별점순조회_gif">
+        <details><summary>6.퇴근시간 기록</summary>
+            <img src="https://github.com/user-attachments/assets/3c019994-dd99-42bc-85cd-b813ecf78d01" alt="퇴근시간기록">
+        </details>
+        <details><summary>7.근무 확인</summary>
+            <img src="https://github.com/user-attachments/assets/b2992830-3f87-401c-8e13-18cb8ceffb2a" alt="근무중">
+            <img src="https://github.com/user-attachments/assets/46d2449e-f16a-4200-8596-bc588c56a7c0" alt="근무종료">
+            <img src="https://github.com/user-attachments/assets/579e1925-e0d0-4560-af2b-41b39ae11c2e" alt="근무에러">
         </details>
     </details>
     <details>
@@ -199,18 +218,25 @@ POS 시스템에서 발생한 거래 데이터를 기반으로 매출 분석을 
             <img src="https://github.com/user-attachments/assets/1aaf5f08-8363-49c0-beef-4c7dd6d9c76f" alt="고객구매내역조회">
         </details>
     </details>
-    <details>
+  <details>
     <summary>보고서 및 분석</summary>
-        <details><summary>1.판매 데이터 수집</summary>
-            <img src="img/test_img/customer_test_img/음식점 리뷰 작성 기능/리뷰 별점 체크.gif" alt="음식점상세정보조회_gif">
+        <details><summary>1.일별 보고서</summary>
+            <img src="https://github.com/user-attachments/assets/750884ef-14be-4ecf-9a4f-4bb345650eb2" alt="일별보고서">
         </details>
-        <details><summary>2.재고/손익 보고</summary>
-            <img src="img/test_img/customer_test_img/음식점 리뷰 작성 기능/음식점 입장 유무 체크.gif" alt="음식점상세정보조회_gif">
+        <details><summary>2.월별 보고</summary>
+            <img src="https://github.com/user-attachments/assets/ed61edc3-7011-437b-a4e0-52ce2c150c66" alt="월별보고서">
         </details>
-       <details><summary>2.카테고리별 보고</summary>
-            <img src="img/test_img/customer_test_img/음식점 리뷰 작성 기능/음식점 입장 유무 체크.gif" alt="음식점상세정보조회_gif">
+       <details><summary>3. 시간별 보고서</summary>
+            <img src="https://github.com/user-attachments/assets/189ed552-7894-472f-83c5-62cc073ab65f" alt="시간별 보고서">
+        </details>
+        <details><summary>4. 카테고리별 보고서</summary>
+            <img src="https://github.com/user-attachments/assets/53187790-1a7a-427a-83df-091db7829241" alt="카테고리별 보고서">
+        </details>
+             <details><summary>5. 손실상품  보고서</summary>
+            <img src="https://github.com/user-attachments/assets/f828e25c-41f1-45f2-bf0b-b357f675aa2a" alt="손실상품  보고서">
         </details>
     </details>
+
 
 
 
