@@ -52,10 +52,12 @@ POS 시스템에서 발생한 거래 데이터를 기반으로 매출 분석을 
 * **직원관리를 통해 효율적인 매장관리에 기여**
 <br/> <br/>
 ## WBS(Work Breakdown Structure)
+[WBS](https://docs.google.com/spreadsheets/d/1djYNOycBP0-a5PDg302wS7SK1A8XTu9u7n0CP0yBa0A/edit?usp=sharing)
 
 ![wbs](https://github.com/user-attachments/assets/1753af09-eb02-495d-9742-22a4c37e3167)
 <br/> <br/>
 ## 요구사항명세서
+[요구사항명세서](https://docs.google.com/spreadsheets/d/1djYNOycBP0-a5PDg302wS7SK1A8XTu9u7n0CP0yBa0A/edit?usp=sharing)
 
 ![요구사항명세서1](https://github.com/user-attachments/assets/f11397ce-c921-4997-9780-dc99225dcd79)
 ![요구사항명세서2](https://github.com/user-attachments/assets/0d002e89-1dd4-43b4-9832-779694197d01)
