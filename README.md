@@ -119,22 +119,19 @@ POS 시스템에서 발생한 거래 데이터를 기반으로 매출 분석을 
     <details>
     <summary>환불처리 관련 기능</summary>
         <details><summary>1.환불 정보 등록</summary>
-            <img src="img/test_img/customer_test_img/웨이팅 등록 기능/고객_웨이팅,웨이팅알림등록.gif" alt="웨이팅,알람등록_gif">
+            <img src="https://github.com/user-attachments/assets/73e4693f-d2f3-43dd-8f14-c931767ac981">
         </details>
             <details><summary>2.마지막 삽입된 환불의 상품ID를 저장</summary>
-            <img src="img/test_img/customer_test_img/웨이팅 등록 기능/고객_웨이팅입장확정.gif" alt="입장확정_gif">
+            <img src="[img/test_img/customer_test_img/웨이팅 등록 기능/고객_웨이팅입장확정.gif" alt="입장확정_gif](https://github.com/user-attachments/assets/529fc878-cb69-4344-b211-33328fbb6d66)">
         </details>
             <details><summary>3.환불시 재고 증가</summary>
-            <img src="img/test_img/customer_test_img/웨이팅 등록 기능/고객_웨이팅입장취소.gif" alt="입장취소_gif">
+            <img src="https://github.com/user-attachments/assets/eb8bc8a3-bdb5-4205-9363-a7b442795f4d">
         </details>
             <details><summary>4.영수증 환불반영</summary>
-            <img src="img/test_img/customer_test_img/웨이팅 등록 기능/고객_웨이팅입장취소.gif" alt="입장취소_gif">
+            <img src="https://github.com/user-attachments/assets/446f5328-227d-4a7a-82e1-b171a18755af">
         </details>
-            <details><summary>5.영주증 금액 수정</summary>
-            <img src="img/test_img/customer_test_img/웨이팅 등록 기능/고객_웨이팅입장취소.gif" alt="입장취소_gif">
-        </details>
-            <details><summary>6.환불 완료 영수증</summary>
-            <img src="img/test_img/customer_test_img/웨이팅 등록 기능/고객_웨이팅입장취소.gif" alt="입장취소_gif">
+            <details><summary>5.환불 완료 영수증</summary>
+            <img src="https://github.com/user-attachments/assets/05897152-29da-4e6f-8f07-c47b0eda1c59">
         </details>
     </details>
     <details>
