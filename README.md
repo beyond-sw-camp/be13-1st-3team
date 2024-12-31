@@ -73,6 +73,7 @@ POS 시스템에서 발생한 거래 데이터를 기반으로 매출 분석을 
 <br/> <br/>
 ## 테이블명세서
 → [테이블 명세서 바로가기](https://docs.google.com/spreadsheets/d/1Qbms6sxZx3EFGe-pK14aio6_7FWvGO805NjnDVXdgvA/edit?usp=sharing)
+
 ![테이블명세서1](https://github.com/user-attachments/assets/b16fd803-1707-47ef-98df-f9f8bb10d26c)
 ![테이블명세서2](https://github.com/user-attachments/assets/0d1b8133-84d3-404c-9891-6c56139aaf4b)
 <br/> <br/>
@@ -248,7 +249,7 @@ POS 시스템에서 발생한 거래 데이터를 기반으로 매출 분석을 
 
 ## 회고록
 
-| 조원 이름 | 회고 |
+| 조원<br>이름 | 회고 |
 | --------- | --- |
 | 이성일 | 아이디어 설계의 구체화 과정의 중요성을 깨달았다. |<br/>
 | 권지민 | 복잡한 시스템 설계를 체계적으로 접근하는 방법을 배우고, 모델링 과정의 중요성을 깨닫는 계기가 되었습니다. |<br/>
