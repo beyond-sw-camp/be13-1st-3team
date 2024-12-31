@@ -122,7 +122,7 @@ POS 시스템에서 발생한 거래 데이터를 기반으로 매출 분석을 
             <img src="https://github.com/user-attachments/assets/73e4693f-d2f3-43dd-8f14-c931767ac981">
         </details>
             <details><summary>2.마지막 삽입된 환불의 상품ID를 저장</summary>
-            <img src="[img/test_img/customer_test_img/웨이팅 등록 기능/고객_웨이팅입장확정.gif" alt="입장확정_gif](https://github.com/user-attachments/assets/529fc878-cb69-4344-b211-33328fbb6d66)">
+            <img src="https://github.com/user-attachments/assets/529fc878-cb69-4344-b211-33328fbb6d66">
         </details>
             <details><summary>3.환불시 재고 증가</summary>
             <img src="https://github.com/user-attachments/assets/eb8bc8a3-bdb5-4205-9363-a7b442795f4d">
