@@ -194,7 +194,8 @@ POS 시스템에서 발생한 거래 데이터를 기반으로 매출 분석을 
      <details>
     <summary>고객 관리</summary>
         <details><summary>1.고객등록</summary>
-            <img src="img/test_img/customer_test_img/음식점 리뷰 작성 기능/리뷰 별점 체크.gif" alt="음식점상세정보조회_gif">
+            <img src="https://github.com/user-attachments/assets/3ef7cca7-a7c9-4e28-b0ce-cb99d1f2028e" alt="고객 등록 이전" width="600">
+            <img src="https://github.com/user-attachments/assets/71c73f6a-47d0-4a52-8b91-a73a3bb160ba" alt="고객 등록 이후" width="600">
         </details>
         <details><summary>2.고객 구매 내역 확인</summary>
             <img src="img/test_img/customer_test_img/음식점 리뷰 작성 기능/음식점 입장 유무 체크.gif" alt="음식점상세정보조회_gif">
