@@ -61,77 +61,7 @@ POS 시스템에서 발생한 거래 데이터를 기반으로 매출 분석을 
 ## WBS(Work Breakdown Structure)
 [WBS](https://docs.google.com/spreadsheets/d/1djYNOycBP0-a5PDg302wS7SK1A8XTu9u7n0CP0yBa0A/edit?usp=sharing)
 
-![wbs](https://github.com/user-attachments/assets/1753af09-eb02-495d-9742-22a4c37e3167)
-<br/> <br/>
-## 요구사항명세서
-[요구사항명세서](https://docs.google.com/spreadsheets/d/1djYNOycBP0-a5PDg302wS7SK1A8XTu9u7n0CP0yBa0A/edit?usp=sharing)
-
-![요구사항명세서1](https://github.com/user-attachments/assets/f11397ce-c921-4997-9780-dc99225dcd79)
-![요구사항명세서2](https://github.com/user-attachments/assets/0d002e89-1dd4-43b4-9832-779694197d01)
-<br/> <br/>
-## ERD(Entity Relationship Diagram)
-
-![ERD](https://github.com/user-attachments/assets/9ce984f8-2ee9-4912-b943-25708b442826)
-<br/> <br/>
-## 테이블명세서
-→ [테이블 명세서 바로가기](https://docs.google.com/spreadsheets/d/1Qbms6sxZx3EFGe-pK14aio6_7FWvGO805NjnDVXdgvA/edit?usp=sharing)
-
-![테이블명세서1](https://github.com/user-attachments/assets/b16fd803-1707-47ef-98df-f9f8bb10d26c)
-
-![테이블명세서2](https://github.com/user-attachments/assets/0d1b8133-84d3-404c-9891-6c56139aaf4b)
-<br/> <br/>
-## 테스트 케이스
-→ [테스트 케이스 바로가기](https://docs.google.com/spreadsheets/d/1djYNOycBP0-a5PDg302wS7SK1A8XTu9u7n0CP0yBa0A/edit?usp=sharing)
-
-  <details>
-    <summary>판매 거래 관련 기능</summary>
-        <details>
-        <summary>1. 판매할 판매 기록 추가</summary>
-            <img src="https://github.com/user-attachments/assets/10d8e5dd-baf9-4a67-870b-9b60aa329263">
-        </details>
-        <details>
-            <summary>2. 영수증 생성</summary>
-            <img src="https://github.com/user-attachments/assets/a56490ab-4156-4915-9b8c-cd65cb959b13">
-        </details>
-        <details>
-            <summary>3. 새로 생성된 영수증 ID저장</summary>
-            <img src="https://github.com/user-attachments/assets/833c6814-4c1c-46ca-9c9f-40289394a13e">
-        </details>
-        <details>
-            <summary>4. 판매테이블에 영수증ID 반영</summary>
-            <img src="https://github.com/user-attachments/assets/0a4d6051-64c1-43a8-b7c0-04fdb3af6afe">
-        </details>
-        <details>
-            <summary>5. 총 금액 계산</summary>
-            <img src="https://github.com/user-attachments/assets/9b81f5e6-20a1-41e1-897b-39af46dc41f6">
-          <img src="https://github.com/user-attachments/assets/36372f25-b3d2-4d88-840a-affdb86eec03">
-        </details>
-        <details>
-            <summary>6. 최근 영수증에 기입된 회원ID와 적용될 포인트 저장</summary>
-            <img src="https://github.com/user-attachments/assets/27a55642-b692-40cb-ac86-07a61c7e86fa">
-        </details>
-        <details>
-            <summary>7. 회원 포인트 적립</summary>
-            <img src="https://github.com/user-attachments/assets/e1eda0d7-221f-42a5-b27d-e51ba2f1a26d">
-        </details>
-        <details>
-            <summary>8. 회원이 포인트 사용시</summary>
-            <img src="https://github.com/user-attachments/assets/f1dbf874-1d03-471d-ab64-88c8c5719414">
-        </details>
-        <details>
-            <summary>9. 최종 영수증</summary>
-            <img src="https://github.com/user-attachments/assets/956e1502-6d90-4b00-8d2f-a7997319843e">
-        </details>
-    </details>
-    <details>
-    <summary>환불처리 관련 기능</summary>
-        <details><summary>1.환불 정보 등록</summary>
-            <img src="https://github.com/user-attachments/assets/73e4693f-d2f3-43dd-8f14-c931767ac981">
-        </details>
-            <details><summary>2.마지막 삽입된 환불의 상품ID를 저장</summary>
-            <img src="https://github.com/user-attachments/assets/529fc878-cb69-4344-b211-33328fbb6d66">
-        </details>
-            <details><summary>3.환불시 재고 증가</summary>
+![고">
             <img src="https://github.com/user-attachments/assets/eb8bc8a3-bdb5-4205-9363-a7b442795f4d">
         </details>
             <details><summary>4.영수증 환불반영</summary>
